@@ -1,0 +1,166 @@
+body {
+  margin: 0 -20px 0 0;
+
+  padding: 0 20px 0 0;
+}
+.topHeadline {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(90deg, red 10%, green 25%, yellow 100%);
+}
+.bulletBox {
+  display: flex;
+  justify-content: center;
+}
+.topBullets {
+  width: 60%;
+  background-color: #92c5e5;
+  border: 4px solid red;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.bulletList {
+  margin: 0;
+}
+.bulletPoint {
+  margin-left: 30px;
+}
+.loremEpsumGrid {
+  background-color: rgb(112, 244, 189);
+  border: 2px solid red;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  border-radius: 12px;
+}
+.lorem {
+  background-color: rgb(118, 243, 238);
+  border: 3px solid green;
+  border-radius: 8px;
+  height: fit-content;
+  width: 400px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.lorem4 {
+  visibility: hidden;
+}
+.lorem6 {
+  visibility: hidden;
+}
+.banner {
+  font-weight: bolder;
+  text-decoration: underline red;
+  text-align: center;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+  background-image: radial-gradient(circle, yellow, red);
+}
+.midContent {
+  height: 280px;
+  border: 3px solid green;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  background-image: radial-gradient(blue, #5e97e6 60%, #7acb7a);
+}
+.achievementBox {
+  height: 110px;
+  width: 200px;
+  background-color: #f8f860;
+  border: 3px solid brown;
+  color: brown;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bottomContent {
+  margin-top: 30px;
+  height: fit-content;
+  border: 2px solid gray;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "item2 item3 item4 item5"
+    "item6 item6 item6 item5"
+    "footer footer footer footer";
+  gap: 15px;
+}
+.item1 {
+  background-color: #e13838;
+  color: white;
+  grid-area: header;
+  font-weight: bolder;
+  font-size: 24px;
+  height: 40px;
+  text-align: center;
+}
+.item2 {
+  background-color: #64d464;
+  color: white;
+  grid-area: item2;
+  font-weight: bold;
+  font-size: 28px;
+  height: 80px;
+  text-align: center;
+}
+.item3 {
+  background-color: #0483f9;
+  color: white;
+  grid-area: item3;
+  font-weight: bold;
+  font-size: 30px;
+  height: 80px;
+}
+.item4 {
+  background-color: #4646e7;
+  color: white;
+  grid-area: item4;
+  font-weight: bold;
+  font-size: 22px;
+  height: 80px;
+}
+.item5 {
+  background-color: #232222;
+  color: white;
+  grid-area: item5;
+  font-size: 18px;
+  height: 220px;
+  width: 85px;
+  padding: 4px;
+}
+.item6 {
+  background-color: rgb(255, 179, 39);
+  color: white;
+  grid-area: item6;
+  font-size: 22px;
+  height: 130px;
+  font-weight: bold;
+}
+.item7 {
+  background-color: rgb(37, 199, 191);
+  color: black;
+  grid-area: footer;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+hr {
+  margin: 0;
+}
